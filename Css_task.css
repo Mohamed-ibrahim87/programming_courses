@@ -14,7 +14,6 @@ a {
     transition: all 0.5s linear;
     margin: 5px;
 }
-
 table {
     margin: auto;
 }
@@ -47,7 +46,7 @@ nav{
     padding:2px;
     text-decoration: none;
 }
-@media (min-width: 100px) and (max-width: 300px) {
+@media (min-width: 320px) and (max-width: 480) {
 nav,a {
     align-items:center;
     background-color: #122e34;
@@ -93,3 +92,12 @@ tr,th{
     color: lightgray;
     font-family: 'Courier New', Courier, monospace;
 }
+ @media (min-width: 480px) and (max-width:768px) {
+nav,a {
+    align-items:center;
+    background-color: #122e34;
+    color: #cad4d9;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+}}
