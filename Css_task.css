@@ -1,0 +1,95 @@
+header {
+    text-align: center;
+    background-color: #122e34;
+    color: #cad4d9;
+    padding: 1px;
+    max-width:100%;
+}
+a {
+    color: #cad4d9;
+    text-decoration: none;
+    font-size: large;
+}
+table {
+    margin: auto;
+}
+table,th,td{
+    border: 3px solid #122e34;
+    border-radius:15px;
+    /* padding: 10px; */
+    width:50%;
+}
+body {
+    background-color: lightgray;
+    /* background-image: url("D:/Tasks image/Tree.png");
+    background-position: right bottom;
+    background-size: 450px;
+    background-repeat: no-repeat ;
+    background-attachment: fixed; */
+    /* background-image: url("D:/Tasks image/Gemini_Generated_Image_4yvvwd4yvvwd4yvv.png"); */
+    background-repeat: no-repeat ;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    min-width:100%;
+    min-height:100%;
+    margin:0;
+}
+footer{
+    text-align: center;
+}
+main{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    max-width:100%;
+    text-align:center;
+    background-color:#122e34;
+    padding:2px;
+}
+nav a{
+    align-items:center;
+    background-color: #122e34;
+    border: 2px collapse lightgray;
+    border-radius:15px;
+    color: #cad4d9;
+    margin:10px; 
+}
+hr {    
+color :lightgray;
+}
+nav a:hover {
+    color: aqua;
+}
+form{
+    border:3px solid black;
+    border-radius:15px;
+    width: 15%;
+    margin:3px;
+    padding:6px;
+}
+body {
+    color: #122e34;
+}
+.whole-body {
+    margin : 0 50px;
+}
+.contactusbody {
+    margin : 0 50px;
+}
+tr,td {
+    text-align: center;
+}
+.addcourses {
+    margin : 0 15px;
+}
+tr,th{
+    background-color: #122e34;
+    color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+}
+a {
+    color: lightgray;
+    transition: all 0.5s linear;/*this is from youtube tutorial */
+}
