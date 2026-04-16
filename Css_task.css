@@ -63,11 +63,20 @@ nav a:hover {
     color: aqua;
 }
 form{
-    border:3px solid black;
+    /* border:3px solid black;
     border-radius:15px;
     width: 25%;
     margin:3px;
-    padding:6px;
+    padding:6px; */
+    border: 2px solid #122e34; /* Defines the border */
+  border-radius: 8px;     /* Smooth corners for mobile */
+  padding: 20px;          /* Space inside the border */
+  width: 75%;             /* Responsive width */
+  margin: 0 auto;         /* Center the form */
+  box-sizing: border-box;
+  font-size: x-large;
+  text-align: center;
+
 }
 body {
     color: #122e34;
