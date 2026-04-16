@@ -65,7 +65,7 @@ nav a:hover {
 form{
     border:3px solid black;
     border-radius:15px;
-    width: 15%;
+    width: 25%;
     margin:3px;
     padding:6px;
 }
@@ -91,5 +91,5 @@ tr,th{
 }
 a {
     color: lightgray;
-    transition: all 0.5s linear;/*this is from youtube tutorial */
+    transition: all 0.5s linear;
 }
