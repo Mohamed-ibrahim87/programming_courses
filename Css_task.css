@@ -5,28 +5,26 @@ header {
     padding: 1px;
     max-width:100%;
 }
+
 a {
     color: #cad4d9;
     text-decoration: none;
     font-size: large;
+    color: lightgray;
+    transition: all 0.5s linear;
+    margin: 5px;
 }
+
 table {
     margin: auto;
 }
 table,th,td{
     border: 3px solid #122e34;
     border-radius:15px;
-    /* padding: 10px; */
     width:50%;
 }
 body {
     background-color: lightgray;
-    /* background-image: url("D:/Tasks image/Tree.png");
-    background-position: right bottom;
-    background-size: 450px;
-    background-repeat: no-repeat ;
-    background-attachment: fixed; */
-    /* background-image: url("D:/Tasks image/Gemini_Generated_Image_4yvvwd4yvvwd4yvv.png"); */
     background-repeat: no-repeat ;
     background-size:cover;
     background-position:center;
@@ -47,14 +45,17 @@ nav{
     text-align:center;
     background-color:#122e34;
     padding:2px;
+    text-decoration: none;
 }
-nav a{
+@media (min-width: 100px) and (max-width: 300px) {
+nav,a {
     align-items:center;
     background-color: #122e34;
-    border: 2px collapse lightgray;
-    border-radius:15px;
     color: #cad4d9;
-    margin:10px; 
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
 }
 hr {    
 color :lightgray;
@@ -63,20 +64,14 @@ nav a:hover {
     color: aqua;
 }
 form{
-    /* border:3px solid black;
-    border-radius:15px;
-    width: 25%;
-    margin:3px;
-    padding:6px; */
-    border: 2px solid #122e34; /* Defines the border */
-  border-radius: 8px;     /* Smooth corners for mobile */
-  padding: 20px;          /* Space inside the border */
-  width: 75%;             /* Responsive width */
-  margin: 0 auto;         /* Center the form */
+    border: 2px solid #122e34;
+  border-radius: 8px;     
+  padding: 20px;          
+  width: 75%;             
+  margin: 0 auto;         
   box-sizing: border-box;
   font-size: x-large;
   text-align: center;
-
 }
 body {
     color: #122e34;
@@ -97,8 +92,4 @@ tr,th{
     background-color: #122e34;
     color: lightgray;
     font-family: 'Courier New', Courier, monospace;
-}
-a {
-    color: lightgray;
-    transition: all 0.5s linear;
 }
